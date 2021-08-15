@@ -1,0 +1,41 @@
+.button{
+    background-color:rgb(19, 18, 18);
+    height: 40px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.70;
+    margin-right: 30px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    
+}
+
+.button>a{
+      text-decoration: none;
+      color: rgb(221, 216, 216);
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;  
+}
+
+.button_white{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    
+}
+
+.button_white>a{
+    color: rgba(12, 12, 12, 0.746);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button_white:hover{
+    cursor: pointer;
+}
